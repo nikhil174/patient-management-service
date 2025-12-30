@@ -27,3 +27,28 @@ node_modules/
 
 # Logs
 *.log
+
+# Database
+db_volumes
+db_volumes/
+
+# Docker
+.env
+!.env.example
+docker-compose.override.yml
+
+# Generated Files (Uncomment as needed)
+README.md
+DOCKER_SETUP_SUMMARY.md
+DOCKER_DEPLOYMENT.md
+QUICK_REFERENCE.md
+SETUP_COMPLETE_FINAL.md
+docker-compose.yml
+docker-start.sh
+Makefile
+.env.example
+
+# Git
+.git/
+.gitkeep
+.gitattributes
